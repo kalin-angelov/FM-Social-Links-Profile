@@ -85,6 +85,17 @@ a {
     color: $white;
 }
 
+footer {
+    position: absolute;
+    right: 10px;
+    a {
+        color: blueviolet;
+        &:hover {
+            color: $green;
+        }
+    }
+}
+
 @media screen and (min-width: 1024px) {
     article {
         padding: 40px;
